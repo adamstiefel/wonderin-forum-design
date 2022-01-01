@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wonderin</title>
+    <link rel = "stylesheet" href = "style.css">
+    <link rel = "stylesheet" href = "/Users/adamstiefel/Desktop/Wonderin/forum-design/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <nav class="navigation hide" id="navigation" >
+                <ul class="nav-list">
+                    <span class="closed-icon" onclick="showIconBar()"><i class="far fa-window-close"></i></span>
+                    <li class = "nav-item">
+                        <a href="#">Home</a>
+                    </li>
+                    <li class = "nav-item">
+                        <a href="#">Forum</a>
+                    </li>
+                    <li class = "nav-item">
+                        <a href="#">Detail</a>
+                    </li>
+                </ul>
+            </nav>
+            <a href="#" class="bar-icon" id="iconBar" onclick="hideIconBar()" ><i class="fa fa-bars" ></i></a>
+            <div class="brand">Wonderin</div>
+        </div>
+        <!---Search Bar--->
+        <div class="search-box">
+            <div>
+                <select name="" id="">
+                    <option value="everything">Everything</option>
+                    <option value="titles">Titles</option>
+                    <option value="descriptions">Description</option>
+                </select>
+                <input type="text" name="q" id="" placeholder="Search ......">
+                <button><i class="fa fa-search"></i></button>
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+            <div class="subforum-title">
+                <h1>Topics of Exploration</h1>
+            </div>
+            <br><br>
+            <div class="subforum-row" >
+                <div class="subforum-icon subforum-column center">
+                    <i class="fas fa-arrow-circle-right"></i>
+                </div>
+                <div class="subforum-description subforum-column">
+                    <h1><a href="" >Description Title: </a></h1>
+                    <p>Description Content: just a random description</p>
+                </div>
+                <div class="subforum-stats subforum-column center">
+                    <span>24 posts | 15 Topics</span>
+                </div>
+                <div class="subforum-info subforum-column">
+                    <b><a href="" >Last Post </a></b>by <a href="">JustAUser</a>
+                    <br>
+                    on <small>22 Dec 2021</small>
+
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="subforum-row" >
+                <div class="subforum-icon subforum-column center">
+                    <i class="fas fa-arrow-circle-right"></i>
+                </div>
+                <div class="subforum-description subforum-column">
+                    <h1><a href="" >Description Title: </a></h1>
+                    <p>Description Content: just a random description</p>
+                </div>
+                <div class="subforum-stats subforum-column center">
+                    <span>24 posts | 15 Topics</span>
+                </div>
+                <div class="subforum-info subforum-column">
+                    <b><a href="" >Last Post </a></b>by <a href="">JustAUser</a>
+                    <br>
+                    on <small>22 Dec 2021</small>
+
+                </div>
+            </div>
+        </div>
+
+            <div class="container">
+                <div class="subforum-row" >
+                    <div class="subforum-icon subforum-column center">
+                        <i class="fas fa-arrow-circle-right"></i>
+                    </div>
+                    <div class="subforum-description subforum-column">
+                        <h1><a href="" >Description Title: </a></h1>
+                        <p>Description Content: just a random description</p>
+                    </div>
+                    <div class="subforum-stats subforum-column center">
+                        <span>24 posts | 15 Topics</span>
+                    </div>
+                    <div class="subforum-info subforum-column">
+                        <b><a href="" >Last Post </a></b>by <a href="">JustAUser</a>
+                        <br>
+                        on <small>22 Dec 2021</small>
+    
+                    </div>
+                </div>
+
+            </div>
+    </div>
+
+    <!---Forum Info--->
+    <div class="forum-info">
+        <div class="chart">
+            My Forum - Stats &nbsp;<i class="far fa-chart-bar"></i>
+        </div>
+        <div>
+            <span><u>5,369</u> Posts in <u>210</u>Topics by <u>45,214</u> users </span>
+
+        </div>
+
+                
+    </div>
+
+
+    <script src="main.js"></script>
+</body>
+</html>
